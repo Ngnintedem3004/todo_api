@@ -13,3 +13,4 @@ __pycache__/
 # Ignorer les dossiers d'IDE
 .vscode/
 .idea/
+./todos.db

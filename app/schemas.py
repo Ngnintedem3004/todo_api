@@ -10,7 +10,7 @@ class TaskRead(BaseModel):
     id: int
     title: str
     description: str
-    completed: bool
+    #completed: bool
 
 class TaskUpdate(BaseModel):
     id: int = Field(..., description="The id of the task to update")
